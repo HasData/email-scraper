@@ -80,7 +80,7 @@ Each script focuses on a specific method of email extraction. No frameworks. Jus
 
 ## Email Scraping Examples
 
-Full article with email scraping examples you can find at hasdata.com.
+Full article with [email scraping examples](https://hasdata.com/blog/email-scraping) you can find at hasdata.com.
 
 ### Regex Email Scraping
 
@@ -149,4 +149,4 @@ Extract emails and contact details from Google Maps listings for a given keyword
 
 ## Disclaimer
 
-These examples are for **educational purposes** only. Learn more about [the legality of web scraping]("https://hasdata.com/blog/is-web-scraping-legal").
+These examples are for **educational purposes** only. Learn more about [the legality of web scraping](https://hasdata.com/blog/is-web-scraping-legal).
