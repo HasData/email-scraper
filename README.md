@@ -1,9 +1,8 @@
-![Python](https://img.shields.io/badge/python-3.10+-blue)
-![Node.js](https://img.shields.io/badge/node.js-18+-green)
-
-
 # Email Scraper Examples (Python & Node.js)
-[![HasData_bannner](banner.png)](https://hasdata.com/)
+
+![Python 3.10 or newer badge](https://img.shields.io/badge/python-3.10+-blue) ![Node.js 18 or newer badge](https://img.shields.io/badge/node.js-18+-green)
+
+[![HasData, the web scraping API the API examples call](banner.png)](https://hasdata.com/)
 
 This repository contains practical scripts to extract email addresses from web pages using Python and Node.js. It includes examples for both regex-based and API-based extraction, covering single sites, multiple URLs, and AI-enhanced scraping.
 
@@ -34,6 +33,8 @@ Install:
 pip install requests
 ```
 
+That covers the regex examples, the API ones add nothing.
+
 ### Node.js Setup
 
 Required packages:
@@ -43,10 +44,14 @@ Required packages:
 Install:
 
 ```bash
-npm install axios
+npm install axios csv-writer
 ```
 
+The HasData examples need an API key, free after sign-up.
+
 ## Project Structure
+
+The two folders mirror each other, one script per method.
 
 ```
 email-scraping-examples/
@@ -92,6 +97,8 @@ Extract emails using regular expressions from a given URL or multiple URLs (from
 | `file_path`    | File with URLs (for batch)   | `'urls.txt'`                       |
 | `output_file`  | File to save found emails    | `'emails.txt'`                     |
 
+Batch mode reads the URL list one line at a time.
+
 ### API Email Scraping (HasData)
 
 Use HasData's web scraping API to extract emails, phone numbers, addresses, and company names from websites.
@@ -100,6 +107,8 @@ Use HasData's web scraping API to extract emails, phone numbers, addresses, and 
 | -------------- | ---------------------------- | -------------------------------------------- |
 | `api_key`      | HasData API key              | `'your-api-key'`                             |
 | `target_url`   | Website URL to scrape        | `'https://example.com'`                      |
+
+The API call also returns phone numbers and company names in the same pass.
 
 ### AI Email Extraction (HasData)
 
@@ -116,6 +125,8 @@ Use HasData’s **AI extraction** feature to extract emails and additional detai
 | `results_ai.json`| Output JSON file with scraped data          | `'results_ai.json'`     |
 | `results_ai.csv` | Output CSV file with scraped data           | `'results_ai.csv'`      |
 
+AI extraction earns its extra credits on layouts the fixed rules miss.
+
 
 ### Google SERP Email Extraction
 
@@ -131,6 +142,8 @@ Search Google for specific queries and extract emails from the resulting URLs.
 | `urls`       | List of URLs collected from SERP    | `["https://example.com", "https://another.com"]` |
 | `results`    | List of dictionaries with URL and extracted emails | `[{"url": "https://example.com", "emails": ["info@example.com"]}]` |
 
+One query yields a URL list and the extractor walks it.
+
 
 
 ### Google Maps Email Extraction
@@ -145,7 +158,13 @@ Extract emails and contact details from Google Maps listings for a given keyword
 | `results.json`| Output JSON file with combined results      | `'results.json'`                |
 | `results.csv` | Output CSV file with combined results       | `'results.csv'`                 |
 
+Maps listings carry the contact details the websites hide.
 
+
+
+## The Regex Study
+
+`study/` holds the measurement behind the regex example. The article's pattern ran over 100 live pages (homepages and contact pages of well-known sites), and of its 530 matches, 236 were not email addresses at all. The junk splits into build and config artifacts, asset filenames like `logo@2x.png`, and error-tracker ingest keys. Only 49 pages produced any match, 37 produced a valid-looking address. `study/results/pool.json` carries the matched strings and `mx_check.json` the deliverability pass (40 of 44 unique domains accept mail). The short lesson is in the scripts, filter file-extension matches and decode percent-escapes before validating.
 
 ## Disclaimer
 

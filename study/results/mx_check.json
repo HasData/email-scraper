@@ -1,0 +1,163 @@
+{
+ "addresses": 117,
+ "domains": 44,
+ "with_mx": 40,
+ "mx": {
+  "bn.com": [
+   "mxa-00189e01.gslb.pphosted.com",
+   "mxb-00189e01.gslb.pphosted.com"
+  ],
+  "businessinsider.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "businessinsider.com.pl": [
+   "mx.poczta.onet.pl"
+  ],
+  "dw.com": [
+   "dw-com.mail.protection.outlook.com"
+  ],
+  "email.com": [
+   "mx00.mail.com",
+   "mx01.mail.com"
+  ],
+  "euenews.uniqlo.com": [
+   "inbound.campaign.adobe.com"
+  ],
+  "forbes.com": [
+   "us-smtp-inbound-1.mimecast.com",
+   "us-smtp-inbound-2.mimecast.com"
+  ],
+  "globeandmail.com": [
+   "globeandmail-com.mail.protection.outlook.com"
+  ],
+  "gmail.com": [
+   "alt1.gmail-smtp-in.l.google.com",
+   "alt2.gmail-smtp-in.l.google.com"
+  ],
+  "goat.cn": "NoAnswer",
+  "goat.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "huffpost.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "irishtimes.com": [
+   "irishtimes-com.mail.protection.outlook.com"
+  ],
+  "mail.fastretailling.com": "NoAnswer",
+  "msnbc.com": [
+   "mx0a-00a17301.pphosted.com",
+   "mx0b-00a17301.pphosted.com"
+  ],
+  "nbcuni.com": [
+   "mx0a-00176a04.pphosted.com",
+   "mx0b-00176a04.pphosted.com"
+  ],
+  "newslicensing.co.uk": [
+   "mxa-00596a01.gslb.pphosted.com",
+   "mxb-00596a01.gslb.pphosted.com"
+  ],
+  "newsweek.com": [
+   "newsweek-com.mail.protection.outlook.com"
+  ],
+  "newyorker.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "nine.com.au": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "notifyboost.net": [
+   "mxa.mailgun.org",
+   "mxb.mailgun.org"
+  ],
+  "nypost.com": [
+   "mxa-00596a01.gslb.pphosted.com",
+   "mxb-00596a01.gslb.pphosted.com"
+  ],
+  "o14302.ingest.us.sentry.io": "NoAnswer",
+  "o37555.ingest.sentry.io": "NoAnswer",
+  "protonmail.com": [
+   "mail.protonmail.ch",
+   "mailsec.protonmail.ch"
+  ],
+  "puma.com": [
+   "puma-com.mail.protection.outlook.com"
+  ],
+  "salon.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "scmp.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "sentry.io": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "sephora.com": [
+   "mxa-0024c501.gslb.pphosted.com",
+   "mxb-0024c501.gslb.pphosted.com"
+  ],
+  "slate.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "smh.com.au": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "sph.com.sg": [
+   "mxa-00716102.gslb.pphosted.com",
+   "mxb-00716102.gslb.pphosted.com"
+  ],
+  "spiegel.de": [
+   "spiegel-de.mail.protection.outlook.com"
+  ],
+  "ssense.com": [
+   "mailstream-central.mxrecord.mx",
+   "mailstream-east.mxrecord.io"
+  ],
+  "temu.com": [
+   "mxmail-in.temu.com"
+  ],
+  "the-sun.co.uk": [
+   "mxa-00596a01.gslb.pphosted.com",
+   "mxb-00596a01.gslb.pphosted.com"
+  ],
+  "thedailybeast.com": [
+   "smtp.google.com"
+  ],
+  "thesun.co.uk": [
+   "mxa-00596a01.gslb.pphosted.com",
+   "mxb-00596a01.gslb.pphosted.com"
+  ],
+  "time.com": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "traveller.com.au": [
+   "alt1.aspmx.l.google.com",
+   "alt2.aspmx.l.google.com"
+  ],
+  "uniqlo.eu": [
+   "uniqlo-eu.mail.protection.outlook.com"
+  ],
+  "walmart.com": [
+   "mxa-000c7201.gslb.pphosted.com",
+   "mxb-000c7201.gslb.pphosted.com"
+  ],
+  "wrightsmedia.com": [
+   "wrightsmedia-com.mail.protection.outlook.com"
+  ]
+ },
+ "port25_probe": {
+  "gmail-smtp-in.l.google.com": "blocked (TimeoutError)",
+  "aspmx.l.google.com": "blocked (TimeoutError)"
+ }
+}
