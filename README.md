@@ -2,7 +2,7 @@
 
 ![Python 3.10 or newer badge](https://img.shields.io/badge/python-3.10+-blue) ![Node.js 18 or newer badge](https://img.shields.io/badge/node.js-18+-green)
 
-[![HasData, the web scraping API the API examples call](banner.png)](https://hasdata.com/)
+[![HasData, the web scraping API the API examples call](banner.png)](https://hasdata.com/?utm_source=github&utm_medium=syndication&utm_campaign=email-scraping&utm_content=email-scraper-readme)
 
 This repository contains practical scripts to extract email addresses from web pages using Python and Node.js. It includes examples for both regex-based and API-based extraction, covering single sites, multiple URLs, and AI-enhanced scraping.
 
@@ -85,7 +85,7 @@ Each script focuses on a specific method of email extraction. No frameworks. Jus
 
 ## Email Scraping Examples
 
-Full article with [email scraping examples](https://hasdata.com/blog/email-scraping) you can find at hasdata.com.
+Full article with [email scraping examples](https://hasdata.com/blog/email-scraping?utm_source=github&utm_medium=syndication&utm_campaign=email-scraping&utm_content=email-scraper-readme) you can find at hasdata.com.
 
 ### Regex Email Scraping
 
@@ -168,4 +168,4 @@ Maps listings carry the contact details the websites hide.
 
 ## Disclaimer
 
-These examples are for **educational purposes** only. Learn more about [the legality of web scraping](https://hasdata.com/blog/is-web-scraping-legal).
+These examples are for **educational purposes** only. Learn more about [the legality of web scraping](https://hasdata.com/blog/is-web-scraping-legal?utm_source=github&utm_medium=syndication&utm_campaign=email-scraping&utm_content=email-scraper-readme).
